@@ -14,7 +14,7 @@ ideas which is quicker and easier than writing a new module.
 
 ### Features ###
 ------------------------------------------------------------------------------------------------------------------
-- Firework Level: Shoots fireworks in the air when a player reaches specified levels.
+- 烟花等级:当玩家达到指定等级时，向空中发射烟花。
 
 
 ### Data ###
@@ -92,7 +92,7 @@ public:
         // Announce Module
         if (sConfigMgr->GetBoolDefault("CustomServer.Announce", true))
         {
-            ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00Custom Server |rmodule.");
+            ChatHandler(player->GetSession()).SendSysMessage("服务器已启用 |cff4CFF00升级烟花 |r模块。");
         }
     }
 
